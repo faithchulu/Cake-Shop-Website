@@ -1,0 +1,625 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: cursive;
+}
+p{
+    font-family: Helvetica;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#BB053A;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: pink;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.brandname {
+    font-size: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero{
+    height: 85vh;
+    width: 100vw;
+    top: -40vh;
+    }
+
+.heroInnerContainer{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+.callToActionContainer{
+    padding: 10vh;
+    width: 50vw;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.heroImageContainer {
+width: 100vh;
+}
+
+.heroImage {
+    height: 100%;
+    width: 100%;
+
+}
+
+.callToActionButton {
+    padding: 0.1rem 2rem 0.1rem 2rem;
+    border-radius: 1.5rem;
+    background-color: #BB053A;
+    text-decoration: none;
+    width: fit-content;
+    margin-bottom: 8vh;
+}
+
+.callToActionButtonText {
+    color: white;
+
+}
+
+.icons {
+ display: flex;
+flex-direction: row;
+justify-content: flex-start ; 
+align-items: center;
+margin-top: 1rem;
+}
+
+.iconSettings {
+    height: 5vh;
+    width: 5vh;
+    padding: 2vh;    
+}
+
+.CatalogImages {
+    display: flex;
+    flex-direction: row;
+}
+
+.FirstCatalogContainer {
+    display: flex;
+     flex-direction: row;  
+     width: 50vw;
+     justify-content: center;
+    align-items: center;
+    justify-content: flex-end;   
+}
+.firstTwoImages {
+    display: flex;
+     flex-direction: column;
+    
+    }
+
+.cakeImageSettings {
+height: 15rem;
+width: 12rem;
+}
+
+.secondCatalogContainer{
+    display: flex;
+    flex-direction: column;      
+    width: 50vw;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.secondTwoImages {
+    display: flex;
+    flex-direction: column;
+}
+
+.FifthCake {
+    height: 100%;
+    width: 60%;
+}
+ 
+.individualSmallerCakes {
+    padding: 2vh;
+}
+
+.advantageImages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstAndThirdAdvantage {
+border-radius: 20rem;
+height: 20vh;
+width: 10vw;
+}
+
+.secondAdvantage {
+border-radius: 20rem;
+height: 20vh;
+width: 10vw;
+}
+
+.AdvantagesInnerContainer {
+    padding: 2rem;
+}
+
+.chefsMainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.chefs {
+    padding: 3rem;
+    margin-top: 5rem;
+}
+
+.headchef {
+    padding: 2 rem;
+    margin-bottom: 5rem;
+}
+
+.chefImages {
+    border-radius: 20rem;
+    height: 20vh;
+    width: 10vw;
+}
+
+.reviewsMainContainer {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding: 3rem;
+}
+
+
+.reviewImage {
+height: 45vh;
+width: 60vh;
+margin-left: 6rem;
+}
+
+.reviewComments {
+    margin-left: 3rem;
+}
+
+.howToOrderMainContainer {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    justify-content: center;
+}
+
+.howToOrderImageContainer {
+    display: flex;
+    justify-content: flex-end;
+    height: 60vh;
+    width: 80vh;
+}
+
+.howToOrderImage {
+    height: 100%;
+    width: 100%;
+    margin-right: 8rem;
+}
+
+.howToOrderPrompts {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+}
+
+.howToOrderButtonText {
+    color: white;   
+} 
+
+.input {
+    padding: 0.5rem;
+    height: 4vh;
+    width: 15rem;
+    border-radius: 3vh;
+    background-color: #f6f6f6;
+    border: none;
+}
+
+.howToOrderButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-top: 3vh ;
+    padding: 0 3vh 0 3vh;
+    border-radius: 3vh;
+    background-color:  #BB053A;
+    text-decoration: none;   
+    font-size: smaller;
+}
+
+.footerMainContainer {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    background-image:url("footerimage.jpg");
+    background-size: 100%;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.footerTopColumnContainer {
+    height: 70%;
+    width: 100%;
+}
+
+.deliveryterms {
+    padding: 3vw;
+    margin-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.footerBottomRowContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+    width: 100%;
+}
+
+.cakeShopWord {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerSocialMediaIconsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    height: 100%;
+    width: 33%;
+}
+
+.footerSocialMediaIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    /* margin: 1rem; */
+}
+
+.footerIcons {
+    height: 25%;
+    width: 25%;   
+    padding: 5%;
+}
+
+.footerMenuMainContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 33%;
+}
+
+.menuitems {
+    padding: 1vh;
+}
+
+.footerMenuItemsColumn {
+
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 33%;
+}
+
+.menuword {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerMenuItemsContainer {
+    display: flex;
+    flex-direction: row; 
+}
+
+
+
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .hero{
+
+        height: 80vh;
+        width: 80vw;
+        }        
+
+   .heroInnerContainer{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        
+.callToActionContainer{
+    padding: 3vh;
+    width: 100vw;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.callToActionContainer h1 {
+    font-size: 6vh;
+}
+
+.heroImageContainer {
+display: none;
+width: 100vh;
+}
+
+.callToActionButton {
+    padding: 0.1rem 2rem 0.1rem 2rem;
+    border-radius: 1.5rem;
+    background-color: #BB053A;
+    text-decoration: none;
+    width: fit-content;
+    margin-bottom: 8vh;
+}
+
+.icons {
+ display: flex;
+flex-direction: row;
+justify-content: center; 
+align-items: center;
+margin-top: 1rem;
+}
+
+.iconSettings {
+    height: 3vh;
+    width: 3vh;
+    padding: 2vh;    
+}
+
+.CatalogImages {
+    display: flex;
+    flex-direction: column;
+}
+
+.FirstCatalogContainer {
+    display: flex;
+     flex-direction: column;  
+     width: 100vw;
+     justify-content: center;
+    align-items: center;
+    justify-content: flex-end;   
+}
+.firstTwoImages {
+    display: flex;
+     flex-direction: column;
+    
+    }
+
+.cakeImageSettings {
+height: 20rem;
+width: 15rem;
+}
+
+.secondCatalogContainer{
+    display: flex;
+    flex-direction: column;      
+    width: 100vw;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.secondTwoImages {
+    display: flex;
+    flex-direction: column;
+}
+
+.FifthCake {
+    height: 20rem;
+    width: 15rem;
+}
+
+.advantageImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantageImages h3 {
+    display: flex;
+    justify-content: center;    
+}
+
+.advantageImages p {
+    display: flex;
+    justify-content: center;
+}
+
+.firstAndThirdAdvantage {
+border-radius: 30rem;
+height: 30vh;
+width: 55vw;
+}
+
+.secondAdvantage {
+border-radius: 20rem;
+height: 30vh;
+width: 55vw;
+}
+
+.chefsMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chefs {
+    padding: 3vh;
+    margin-top: 3vh;
+}
+
+.headchef {
+margin-top: 3vh;
+}
+
+.chefImages {
+    border-radius: 20rem;
+    height: 30vh;
+    width: 50vw;
+}
+
+.reviewsMainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;   
+}
+
+    .reviewsImageContainer {
+        height: 50%;
+        width: 100%;
+    }
+
+    .reviewImage {
+    height: 100%;
+    width: 90%;
+    }
+    
+    .reviewComments {
+    height: 50%;
+    width: 100;
+    }
+    
+    .howToOrderMainContainer {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        
+    }
+    
+    .howToOrderImageContainer {
+      display: none;
+    }
+    
+    
+    .howToOrderPrompts {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    
+    .footerMainContainer {
+        display: none;
+    }
+}
